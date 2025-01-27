@@ -1,7 +1,9 @@
 import { useState } from 'react'
 import './App.css'
 import './index.css'
-import Weather from './assets/components/Weather.jsx'
+import WeatherCard from './WeatherCard';
+import Weather from './Weather';
+
 
 function App() {
   // const [count, setCount] = useState(0)
