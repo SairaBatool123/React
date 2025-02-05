@@ -1,42 +1,64 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+body {
+    font-family: "Poppins", system-ui !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/images/giphy.gif);
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container {
+    background: linear-gradient(135deg , #5267B2,#E3E6F0);
+    width: 350px !important;
+    height: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.search-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.card {
-  padding: 2em;
+.container input {
+    border: none;
+    outline: none;
+    width: 200px;
+    height: 25px;
+}
+.search-box i{
+    cursor: pointer;
+}
+.body {
+    align-items: center !important;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
 }
 
-.read-the-docs {
-  color: #888;
+img {
+    width: 130px;
+}
+
+.detail {
+    align-items: center;
+    display: flex;
+    justify-content: center !important;
+    flex-direction: column;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }

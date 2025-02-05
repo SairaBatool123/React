@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+.color{
+  color: #84CC16;
+}
+.btn{
+  /* background-color: #84CC16; */
+  border: 1px solid #84CC16 !important;
+}

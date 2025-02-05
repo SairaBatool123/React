@@ -1,8 +1,8 @@
-import React, { useRef, useState } from "react";
+import { React, useRef, useState } from "react";
 import axios from "axios";
-import WeatherCard from "./weatherCard";
+import {WeatherCard} from "../components/WeatherCard";
 
-function Weather() {
+export default function Weather() {
 
   // const [city,setCity] = useState("")
 
@@ -66,5 +66,3 @@ function Weather() {
     </>
   )
 }
-
-export default Weather;
