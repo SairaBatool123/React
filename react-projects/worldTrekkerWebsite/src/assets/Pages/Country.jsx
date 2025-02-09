@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import { getCountryData } from "../../api/axios";
 import { Loader } from "../../components/UI/Loader";
 import CountryCard from "../../components/Layout/CountryCard";
+import { SearchFilter } from "../../components/UI/SearchFilter";
 
 
 export const Country = () => {

@@ -30,6 +30,14 @@ html {
 body {
   background-color: black;
 }
+.main-secc{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60%;
+  text-align: "center";
+}
 
 h1,
 h2,
@@ -404,12 +412,13 @@ country Card
 
 .country-card {
   margin-top: 3.2rem;
+  margin: auto;
 }
 .country-section {
   margin: 6.4rem auto 9.6rem auto;
   & .grid {
     gap: 3.2rem;
-    max-width: 132rem;
+    max-width: 110rem;
     margin: auto;
   }
 
@@ -588,11 +597,13 @@ contact us Page ends here
 /* //Loader  */
 /* HTML: <div class="loader"></div> */
 .loader {
+  text-align: center;
+  margin: auto;
   width: 50px;
   padding: 8px;
   aspect-ratio: 1;
   border-radius: 50%;
-  background: #25b09b;
+  background: #fff;
   --_m: conic-gradient(#0000 10%, #000), linear-gradient(#000 0 0) content-box;
   -webkit-mask: var(--_m);
   mask: var(--_m);

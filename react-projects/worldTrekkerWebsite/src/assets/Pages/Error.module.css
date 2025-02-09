@@ -1,4 +1,4 @@
-/* @import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
 
 
 *,
@@ -21,7 +21,7 @@ main {
   text-align: center;
 }
 
-h1{
+h3{
   color: #e7ebf2;
   font-size: 12.5rem;
   letter-spacing: .10em;
@@ -45,7 +45,7 @@ h2 {
   margin-bottom: .40em;
 }
 
-p {
+.para {
   color: #ccc;
   margin-top: 0;
 }
@@ -58,4 +58,4 @@ p {
   to {
     transform: translatey(-.15em);
   }
-} */
+}
